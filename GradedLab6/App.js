@@ -31,7 +31,8 @@ export default function App() {
         setIsOffline(true);
         foundCache = true;
       }
-    } catch (cacheError) {
+    } catch (err) {
+      console.log(err);
     }
 
     try {
@@ -72,7 +73,8 @@ export default function App() {
       setLastUpdated('');
       setIsOffline(false);
       setError('Saved notices cleared. Tap refresh to load live notices.');
-    } catch (clearError) {
+    } catch (err) {
+      console.log(err)
     }
   }
 
