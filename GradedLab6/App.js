@@ -83,7 +83,6 @@ export default function App() {
     
       <View style={styles.header}>
         <Text style={styles.headerTitle}>UJ Campus Notices</Text>
-        <Text style={styles.headerSubtitle}>University of Johannesburg Noticeboard</Text>
       </View>
 
       <View style={styles.actionsContainer}>
